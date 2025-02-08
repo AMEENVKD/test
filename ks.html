@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICKJACK test page</title>
+</head>
+<body>
+    <style>
+        iframe {
+            position: relative;
+            width: 500px;
+            height: 700px;
+            z-index: 2;
+        }
+    </style>
+    <p>website is vurnerable to clickjacking</p>
+    <iframe src="https://donation.cmdrf.kerala.gov.in/" frameborder="0"></iframe>
+</body>
+</html>
